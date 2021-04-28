@@ -22,29 +22,31 @@
 .fl{
     float: left;
 }
-
+.button{
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+    font-size: 10px;
+}
 
 /* end utility class */
-
 
 nav{
     width: 80%;
     height: 60px;
     padding: 20px;
     color: white;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 ul{  
     text-align: center;
-  
 }
 li{
     list-style: none;
     display: inline-block;
     height: 40px;
 }
-.nav-bar, .accedi{
+.nav-bar{
     padding-top: 7px;   
 }
 .nav-bar{
@@ -67,13 +69,17 @@ li{
     transform: translate(-50%, -50%);   
 }
 .titolo{
-    height: 50px;
+    height: 40px;
     font-size: 30px;
 }
 .sotto-titolo{
     font-size: 15px;
     padding: 10px;
+    line-height: 20px;
+    margin-bottom: 15px;
 }
+.b2{
+    background-color: black;
+    color: white;
 
-
-    
+}
