@@ -26,7 +26,7 @@
     border-radius: 50px;
     border: none;
     padding: 15px;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 /* end utility class */
@@ -47,10 +47,8 @@ li{
     height: 40px;
 }
 .nav-bar{
-    padding-top: 7px;   
-}
-.nav-bar{
-    width: 45%;     
+    width: 45%;
+    padding-top: 7px; 
 }
 .logo, .accedi{
     width: 25%;
@@ -81,5 +79,21 @@ li{
 .b2{
     background-color: black;
     color: white;
+
+}
+
+.container-main-1{
+    width: 80%;
+    margin: 0 auto;
+}
+.img-1{
+    width: 48%;
+    height: 10px;
+}
+.text-img-1{
+    width: 48%;
+    padding-left: 100px;
+    padding-top: 50px;
+    text-align: center;
 
 }
