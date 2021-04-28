@@ -2,5 +2,78 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
+
+#container-header{
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+
+}
+/* utility class */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+
+
+/* end utility class */
+
+
+nav{
+    width: 80%;
+    height: 60px;
+    padding: 20px;
+    color: white;
+    margin: 0 auto;
+    
+}
+ul{  
+    text-align: center;
+  
+}
+li{
+    list-style: none;
+    display: inline-block;
+    height: 40px;
+}
+.nav-bar, .accedi{
+    padding-top: 7px;   
+}
+.nav-bar{
+    width: 45%;     
+}
+.logo, .accedi{
+    width: 25%;
+}
+.nav-bar li{
+    padding-left: 20px;
+}
+
+/* text dentro header */
+.text-header{
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.titolo{
+    height: 50px;
+    font-size: 30px;
+}
+.sotto-titolo{
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+    
