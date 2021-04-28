@@ -14,7 +14,7 @@
 
 }
 /* utility class */
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -79,6 +79,7 @@ li{
 .b2{
     background-color: black;
     color: white;
+    margin-left: 10px;
 
 }
 
@@ -87,13 +88,15 @@ li{
     margin: 0 auto;
 }
 .img-1{
-    width: 48%;
-    height: 10px;
+    width: 50%;
 }
 .text-img-1{
-    width: 48%;
-    padding-left: 100px;
+    width: 35%;
+    padding-left: 230px;
     padding-top: 50px;
-    text-align: center;
+    line-height: 20px;
 
+}
+.text-img-1 p{
+    margin-top: 20px;
 }
